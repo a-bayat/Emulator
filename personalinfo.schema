@@ -1,0 +1,11 @@
+[
+  '{{repeat(1000, 1000)}}',
+  {
+    _id: '{{objectId()}}',
+    nationalCode: '{{integer(1111111111, 199999999)}}',
+    name: '{{firstName()}}',
+    family: '{{surname()}}',
+    father: '{{firstName()}}',
+    registered: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss")}}'
+  }
+]

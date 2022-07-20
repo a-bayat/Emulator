@@ -1,0 +1,10 @@
+[
+  '{{repeat(1000, 1000)}}',
+  {
+    _id: '{{objectId()}}',
+    postalCode: '{{integer(1111111111, 9999999999)}}',
+    address: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',
+    city: '{{city()}}',
+    state: '{{state()}}'
+  }
+]
