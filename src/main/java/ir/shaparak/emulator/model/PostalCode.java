@@ -3,7 +3,7 @@ package ir.shaparak.emulator.model;
 public class PostalCode {
     private String postalCode;
     private String address;
-    private String region;
+    private String state;
     private String city;
 
     public String getPostalCode() {
@@ -22,12 +22,12 @@ public class PostalCode {
         this.address = address;
     }
 
-    public String getRegion() {
-        return region;
+    public String getState() {
+        return state;
     }
 
-    public void setRegion(String region) {
-        this.region = region;
+    public void setState(String state) {
+        this.state = state;
     }
 
     public String getCity() {

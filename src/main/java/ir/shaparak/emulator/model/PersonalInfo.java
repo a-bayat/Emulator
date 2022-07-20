@@ -1,13 +1,13 @@
 package ir.shaparak.emulator.model;
 
-import java.time.LocalDateTime;
+import java.sql.Timestamp;
 
 public class PersonalInfo {
     private String nationalCode;
     private String name;
     private String family;
     private String father;
-    private LocalDateTime birthDate;
+    private Timestamp birthDate;
 
     public String getNationalCode() {
         return nationalCode;
@@ -41,11 +41,11 @@ public class PersonalInfo {
         this.father = father;
     }
 
-    public LocalDateTime getBirthDate() {
+    public Timestamp getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(LocalDateTime birthDate) {
+    public void setBirthDate(Timestamp birthDate) {
         this.birthDate = birthDate;
     }
 }
