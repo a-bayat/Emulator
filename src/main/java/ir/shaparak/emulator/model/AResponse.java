@@ -9,13 +9,6 @@ public abstract class AResponse {
     public String error;
     public Integer status;
 
-//    @Autowired
-//    private ResponseFactory responseFactory;
-//
-//    @PostConstruct
-//    public void registerResponse() {
-//        responseFactory.registerResponses(getResponseEnum(), this);
-//    }
-//
-//    protected abstract ResponseEnum getResponseEnum();
+
+
 }
